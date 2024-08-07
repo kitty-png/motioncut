@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;
+font-family: "Montserrat", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: #ffffff;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  min-width: 700px;
+  border-radius: 50px;
+  background-image: linear-gradient(to top, rgb(228, 182, 154,0.5), rgb(126, 101, 85,0.5));
+  border: 1px solid rgba(92, 51, 64, 0.5);
+}
+.dropdown {
+  position: relative;
+  width: 280px;
+  border-radius: 50px;
+  background-color: rgb(146, 119, 102, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  cursor: pointer;
+}
+.dropdown-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  color: #ffffff
+}
+.dropdown-list {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  left: 20;
+  width: 100%;
+  border-radius: 15px;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 2.5px;
+  /*background-image: linear-gradient(to top, rgb(146, 119, 102, 0.72), rgb(148, 130, 118, 0.97));*/
+ 
+  transition: max-height 0.5s;
+}
+.dropdown-list-item {
+  position:relative;
+  display: flex;
+  overflow: hidden;
+  font-size: 15px;
+ 
+  /*background: #ffffff;*/
+  /*background-image: linear-gradient(to top, rgb(248, 0, 0), rgb(126, 101, 85,0.2));*/
+  background-image: linear-gradient(to right, rgb(146, 119, 102,0.9), rgb(126, 101, 85,0.9));
+  text-decoration: none;
+  
+ padding: 10px 15px;
+ 
+ z-index: 1;
+}
+.dropdown-list-item span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient(to top, rgb(146, 119, 102, 0.72), rgb(148, 130, 118, 0.97));*/
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    
+    z-index: -1;
+    transform-origin: right;
+    transition: 0.5s;
+}
+.dropdown-list-item:hover span{
+opacity: 0;
+transition: 0.5s;
+border-radius: 5px;
+
+}
+.dropdown-list-item:hover {
+   /* margin-left: 0.5rem;*/
+  color: #ffffff;
+  background-image: linear-gradient(to right, rgb(126,101,85,0.9), rgb(209, 172, 149));
+
+  transition: 0.2s;
+  
+}
+.para {
+    left: 50px;
+}
+#list.show {
+  max-height: 300px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  width: 100%;
+  color: #361500;
+}
+.search-box input {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #927766;
+    background-image: linear-gradient(to top, rgb(228, 182, 154,0.5), rgb(126, 101, 85,0.5)) ;
+    border: 0;
+    outline: 0;
+}
+.search-box i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.search-box input::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(54, 21, 0, 0.45);
+  }

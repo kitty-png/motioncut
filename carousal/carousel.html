@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, width=device-width">
+
+
+
+
+<style>
+	.slides-box-icon {
+      align-self: stretch;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+      object-fit: contain;
+}
+.arrow-left-icon {
+      width: 24px;
+      position: relative;
+      height: 24px;
+}
+.click-area {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: var(--padding-5xs);
+	z-index:-1;
+}
+.dot-indictaor-1 {
+      width: 16px;
+      position: relative;
+      height: 16px;
+}
+.dot-indictaor-2 {
+      width: 12px;
+      position: relative;
+      height: 12px;
+      opacity: 0.5;
+}
+.slide-indicator {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: var(--padding-5xs);
+      gap: 10px;
+}
+.slides-navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: var(--padding-5xs);
+      gap: 8px;
+	z-index:1;
+}
+.carousel {
+      width: 1428px;
+      height: 560px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 40px 64px;
+      box-sizing: border-box;
+      gap: 24px;
+}
+.content {
+      position: absolute;
+      top: 150px;
+      left: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+}
+.preview {
+      width: 100%;
+      position: relative;
+      background-color: #fff;
+      height: 1080px;
+      overflow: hidden;
+}
+body {
+      margin: 0;
+      line-height: normal;
+}
+
+
+:root {
+
+      /* Paddings */
+      --padding-5xs: 8px;
+
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+
+      <div class="preview">
+            <div class="content">
+                  <div class="carousel">
+                        <img class="slides-box-icon" alt="" src="Slides Box.png">
+
+                        <div class="slides-navigation">
+                              <div class="click-area">
+                                    <img class="arrow-left-icon" alt="" src="Arrow Left.svg">
+
+                              </div>
+                              <div class="slide-indicator">
+                                    <img class="dot-indictaor-1" alt="" src="Dot indictaor — 1.svg">
+
+                                    <img class="dot-indictaor-2" alt="" src="Dot indictaor — 2.svg">
+
+                                    <img class="dot-indictaor-2" alt="" src="Dot indictaor — 3.svg">
+
+                                    <img class="dot-indictaor-2" alt="" src="Dot indictaor — 4.svg">
+
+                                    <img class="dot-indictaor-2" alt="" src="Dot indictaor — 5.svg">
+
+                              </div>
+                              <div class="click-area">
+                                    <img class="arrow-left-icon" alt="" src="Arrow Right.svg">
+
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+
+
+
+</body>
+<script src="carouselscript.js"></script>
+</html>

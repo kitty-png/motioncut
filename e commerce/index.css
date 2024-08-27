@@ -1,0 +1,327 @@
+.page-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #d4eff3;
+  	width: 665px;
+  	height: 2232px;
+}
+.d07859565bdde4e39194d27d19d4c5-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 665px;
+  	height: 35px;
+  	object-fit: cover;
+}
+.pngtree-water-splash-vector-pn {
+  	position: absolute;
+  	top: 35px;
+  	left: 0px;
+  	background-color: rgba(123, 193, 203, 0.5);
+  	width: 665px;
+  	height: 500px;
+}
+.b341468e3a73e65e98bafabc41ef98-icon {
+  	position: absolute;
+  	top: 35px;
+  	left: 0px;
+  	width: 665px;
+  	height: 730px;
+  	object-fit: cover;
+}
+.home {
+  	position: relative;
+  	font-weight: 500;
+}
+.home-parent {
+  	position: absolute;
+  	top: 52px;
+  	left: 78px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 50px;
+  	font-size: 16px;
+  	color: rgba(123, 193, 203, 0.5);
+  	font-family: Inter;
+}
+.page-item {
+  	position: absolute;
+  	top: 72.5px;
+  	left: 79.5px;
+  	border-top: 1px solid #0091f9;
+  	box-sizing: border-box;
+  	width: 43px;
+  	height: 1px;
+}
+.follow-us {
+  	position: relative;
+}
+.save-15 {
+  	position: relative;
+  	font-size: 11px;
+  	white-space: pre-wrap;
+}
+.div {
+  	position: relative;
+  	color: #000;
+}
+.follow-us-parent {
+  	position: absolute;
+  	top: 11px;
+  	left: 18px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 82px;
+  	mix-blend-mode: luminosity;
+  	color: #020202;
+  	font-family: Inter;
+}
+.hydrating-icon {
+  	position: absolute;
+  	top: calc(50% - 1023px);
+  	left: 150px;
+  	width: 375px;
+  	height: 84px;
+  	object-fit: cover;
+}
+.skincare-icon {
+  	position: absolute;
+  	top: calc(50% - 956px);
+  	left: 210px;
+  	width: 256px;
+  	height: 55px;
+  	object-fit: cover;
+}
+.skincare-parent {
+  	position: absolute;
+  	top: 219px;
+  	left: 50px;
+  	width: 524px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 98px;
+}
+.refresh-your-skin {
+  	align-self: stretch;
+  	position: relative;
+}
+.a16979f1c6d54daaaf133ca0bc1e95-icon {
+  	width: 142px;
+  	position: relative;
+  	border-radius: 50%;
+  	height: 142px;
+  	object-fit: cover;
+}
+.f79d804e055f68f20e5b14a68219-icon {
+  	width: 144px;
+  	position: relative;
+  	border-radius: 50%;
+  	height: 142px;
+  	object-fit: cover;
+}
+.a16979f1c6d54daaaf133ca0bc1e95-parent {
+  	width: 602px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 45px;
+}
+.refresh-your-skin-today-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 624px;
+  	height: 196px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 24px;
+}
+.options {
+  	position: absolute;
+  	top: 788px;
+  	left: 21px;
+  	width: 624px;
+  	height: 249px;
+  	font-size: 24px;
+}
+.most-popular {
+  	position: absolute;
+  	top: 1099px;
+  	left: 21px;
+  	font-size: 32px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 203px;
+}
+.a2ba82519ecf227e1ffc0c82be59ba-icon {
+  	position: absolute;
+  	top: calc(50% - 130.5px);
+  	left: calc(50% - 97px);
+  	border-radius: 30px;
+  	width: 194px;
+  	height: 210px;
+  	object-fit: cover;
+}
+.derma-e-ultra-hydrating {
+  	position: absolute;
+  	top: calc(50% + 91.5px);
+  	left: calc(50% - 87px);
+  	font-weight: 300;
+}
+.div1 {
+  	position: absolute;
+  	top: calc(50% + 110.5px);
+  	left: calc(50% - 87px);
+  	font-size: 16px;
+  	font-weight: 600;
+}
+.card11 {
+  	position: absolute;
+  	top: calc(50% - 130.5px);
+  	left: calc(50% - 97px);
+  	width: 194px;
+  	height: 261px;
+}
+.buy-child {
+  	position: absolute;
+  	top: calc(50% - 13.5px);
+  	left: calc(50% - 30.5px);
+  	border-radius: 7px;
+  	background-color: #ebedd5;
+  	width: 61px;
+  	height: 27px;
+}
+.buy1 {
+  	position: absolute;
+  	top: calc(50% - 9.5px);
+  	left: calc(50% - 16.5px);
+  	font-weight: 600;
+}
+.buy {
+  	position: absolute;
+  	top: calc(50% + 59.5px);
+  	left: calc(50% + 36px);
+  	box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+  	width: 61px;
+  	height: 27px;
+  	font-size: 16px;
+}
+.card1 {
+  	width: 194px;
+  	position: relative;
+  	filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
+  	height: 261px;
+}
+.card1-parent {
+  	position: absolute;
+  	top: 1176px;
+  	left: 28px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 14px;
+  	font-size: 15px;
+}
+.card1-group {
+  	position: absolute;
+  	top: 1474px;
+  	left: 28px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 14px;
+  	font-size: 15px;
+}
+.d07859565bdde4e39194d27d19d4c5-icon1 {
+  	position: absolute;
+  	top: 1961px;
+  	left: 0px;
+  	width: 665px;
+  	height: 271px;
+  	object-fit: cover;
+}
+.our-mission {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 32px;
+  	font-weight: 600;
+  	font-family: 'Source Serif Pro';
+}
+.a-radical-new {
+  	position: absolute;
+  	top: 40px;
+  	left: 4px;
+  	font-size: 12px;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 214px;
+  	height: 86px;
+}
+.categories {
+  	position: absolute;
+  	top: 40px;
+  	left: 341px;
+}
+.skincare2 {
+  	position: absolute;
+  	top: 61px;
+  	left: 341px;
+}
+.shop-all {
+  	position: absolute;
+  	top: 82px;
+  	left: 340px;
+}
+.trending {
+  	position: absolute;
+  	top: 103px;
+  	left: 341px;
+}
+.quick-links {
+  	position: absolute;
+  	top: 14px;
+  	left: 341px;
+  	font-size: 12px;
+  	font-weight: 600;
+}
+.footer {
+  	position: absolute;
+  	top: 1785px;
+  	left: 100px;
+  	width: 409px;
+  	height: 126px;
+  	color: #020202;
+  	font-family: Inter;
+}
+.hydrating-skin {
+width:30%;
+position: absolute;
+max-width: 100%;
+overflow: hidden;
+height: 122px;
+object-fit: cover;
+bottom:80px;
+left: 160px;
+}
+.page {
+  	width: 100%;
+  	position: relative;
+  	height: 2232px;
+  	text-align: left;
+  	font-size: 10px;
+  	color: #000;
+  	font-family: 'Source Serif Pro';
+}
